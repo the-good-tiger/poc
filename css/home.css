@@ -72,3 +72,34 @@
     padding: 15px 32px;
 }
 
+
+@media screen and (max-width: 1537px){
+    .mini-heading h1{
+        font-size: 35px;
+    }
+    .heading h1, .heading h2{
+        font-size: 90px;
+    }
+    .shop {
+        padding: 10px 20px;
+    }
+    .overlay{
+        top: 155px;
+    }
+    .view {
+        padding: 10px 25px;
+    }
+}
+
+@media screen and (max-width: 1496px){
+    .mini-heading h1{
+        font-size: 30px;
+    }
+    .heading h1, .heading h2{
+        font-size: 85px;
+    }
+    .shop {
+        padding: 10px 20px;
+    }
+
+}
