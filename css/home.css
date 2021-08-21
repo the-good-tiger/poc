@@ -1,0 +1,74 @@
+@import 'style.css';
+
+.bg-img-container{
+    background-image: url("../images/home.jpg") ;
+    height: 840px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(1.5px); */
+
+}
+
+.overlay{
+    background:#00000012;
+    position: absolute;
+    width: 100%;
+    height: 840px;
+    left: 0; 
+    top: 215px;
+    backdrop-filter: blur(1.2px);
+    z-index: 1;
+}
+
+.mini-heading{
+    float: right;
+    margin-right: 277px;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.mini-heading h1{
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.heading{
+    float: right;
+    width: 100%;
+}
+
+.heading h1{
+    color: #00FF00;
+    margin-right: 277px;
+    position: relative;
+    z-index: 1;
+    font-size: 136px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+.heading h2{
+    color: #00FF00;
+    margin-right: 204px;
+    position: relative;
+    z-index: 1;
+    font-size: 136px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.shop{
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-right: 277px;
+    padding: 15px 32px;
+}
+
